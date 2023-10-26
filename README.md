@@ -12,22 +12,22 @@ MySQL Connector Java » 8.0.28 dependency is required
 ### STEPS TO CONNECT:
 1. Load or register the driver
 2. Establish Connection
-3. Create Statement
-  • Statement
-  • PreparedStatement
-  • CallableStatement
-4. Execute Statement
-  ► execute():
-    • This method is used for all the commands like DDL,DML,DQL.
-    • Return type of execute method is Boolean.
-    • Return true when DQL commands are used.
-    • Return false when other than DQL commands are used.
-  ► executeUpdate():
-    • This method is used for DML commands
-    • Return type is int.
-    • DML commands like update,insert,delete.
-  ► executeQuery():
-    • This method is used for DQL commands
-    • Return type is Resultset.
-    • This method is used for Select query.
+3. Create Statement <br>
+   - Statement <br>
+   - PreparedStatement <br>
+   - CallableStatement <br>
+4. Execute Statement <br>
+   - *execute()*: <br>
+    • This method is used for all the commands like DDL, DML, DQL. <br>
+    • Return type of execute method is Boolean. <br>
+    • Return true when DQL commands are used. <br>
+    • Return false when other than DQL commands are used. <br>
+   - *executeUpdate()*: <br>
+    • This method is used for DML commands <br>
+    • Return type is int. <br>
+    • DML commands like update, insert, delete. <br>
+   - *executeQuery()*: <br>
+    • This method is used for DQL commands <br>
+    • Return type is Resultset. <br>
+    • This method is used for Select query. <br>
 5. Close
